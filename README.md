@@ -15,4 +15,4 @@ Projeto construído no evento Next Level Week da Rocketseat.
 
 ## Contato
 
-contato@ivanaraujo.com
+contato.ivanaraujo@gmail.com
