@@ -1,111 +1,719 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
-    <title>NLW eSports</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="format-detection" content="url=no" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <title>Email</title>
+  <!--[if mso]>
+      <style>
+        * {
+          font-family: sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+  <!--[if !mso]><!-->
+  <!-- <![endif]-->
+  <style type="text/css">
+    html {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    td {
+      vertical-align: top;
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+      u~div .email-container {
+        min-width: 320px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+      u~div .email-container {
+        min-width: 375px !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 414px) {
+      u~div .email-container {
+        min-width: 414px !important;
+      }
+    }
+  </style>
+  <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+  <style>
+    @media only screen and (max-device-width: 480.0000305175781px),
+    only screen and (max-width: 480.0000305175781px) {
+      .eh {
+        height: auto !important;
+      }
+
+      .desktop {
+        display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        max-height: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+        width: 0 !important;
+      }
+
+      .mobile {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        float: none !important;
+      }
+
+      .email-container {
+        width: 100% !important;
+        margin: auto !important;
+      }
+
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+    }
+  </style>
 </head>
-<body>
 
-    <header>
-        <div><img src="https://avatars.githubusercontent.com/u/113381980?v=4" alt="Foto de Ivan Araújo"></div>
-    </header>
-
-    <main>
-        <section>
-            <div>
-                <h2>Meus jogos</h2>
-                <p>Os games que eu mais curto jogar!</p>
-
-                <ul class="games-list">
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/League%20of%20Legends" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-144x192.jpg" alt="Imagem do jogo League of Legends">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/Apex%20Legends" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/511224-144x192.jpg" alt="Imagem do jogo Apex Legends">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/World%20of%20Warcraft" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/18122-144x192.jpg" alt="Imagem do jogo World of Warcraft">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/directory/game/Counter-Strike%3A%20Global%20Offensive" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-144x192.jpg" alt="Imagem do jogo Counter-Strike: Global Offensive">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Canais e streamers</h2>
-                <p>Lista de canais e transmissões que não perco!</p>
-
-                <ul class="channel-list">
-                    <li>
-                        <a href="https://www.twitch.tv/alanzoka" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/15cec952-c1ba-4ff8-a79c-53c2fa5bd269-profile_image-150x150.png" alt="Imagem Canal Alanzoka">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/cellbit" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/cb885149-f7f7-48f0-99ae-fe0a386ed3e2-profile_image-150x150.png" alt="Imagem Canal Cellbit">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitch.tv/gaules" target="_blank">
-                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-150x150.png" alt="Imagem Canal Gaules">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Minhas redes</h2>
-                <p>Se conecte comigo agora mesmo!</p>
-
-                <ul class="social-list">
-                    <li>
-                        <a href="https://www.twitch.tv/" target="_blank">
-                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.2824 25H15.8426C15.6011 25.0001 15.3678 25.0844 15.1852 25.2375L9.28125 30V25H6.1875C5.914 25 5.65169 24.8946 5.4583 24.7071C5.2649 24.5196 5.15625 24.2652 5.15625 24V6C5.15625 5.73478 5.2649 5.48043 5.4583 5.29289C5.65169 5.10536 5.914 5 6.1875 5H26.8125C27.086 5 27.3483 5.10536 27.5417 5.29289C27.7351 5.48043 27.8438 5.73478 27.8438 6V19.5375C27.8417 19.6832 27.8072 19.8267 27.7427 19.9583C27.6782 20.0899 27.5851 20.2065 27.4699 20.3L21.9398 24.7625C21.7572 24.9156 21.5239 24.9999 21.2824 25V25Z" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M21.6562 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M15.4688 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>  
-                        </a>                              
-                    </li>
-                    <li>
-                        <a href="https:/twitter.com/" target="_blank">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 11C16 8.25003 18.3125 5.96253 21.0625 6.00003C22.0256 6.01115 22.9649 6.30018 23.7676 6.83237C24.5704 7.36457 25.2023 8.11728 25.5875 9.00003H30L25.9625 13.0375C25.7019 17.0932 23.9066 20.8975 20.9415 23.6769C17.9764 26.4562 14.0641 28.002 10 28C6 28 5 26.5 5 26.5C5 26.5 9 25 11 22C11 22 3 18 5 7.00003C5 7.00003 10 12 16 13V11Z" stroke="#2871FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>       
-                        </a>
-                    </li>
-                    <li>
-                        <a href="instagram.com/ivanaraujo.design" target="_blank">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10"/>
-                                <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#FA41FE"/>
-                            </svg>       
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    
+<body style="margin: 0; padding: 0;">
+  <div style="background-color:#ffffff">
+    <!--[if gte mso 9]>
+      <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+      <v:fill type="tile" color="#ffffff"/>
+      </v:background>
+      <![endif]-->
+    <!-- Main table -->
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+        <td valign="top" align="center">
+          <!-- Child table -->
+          <table align="center" border="0" bgcolor="#ffffff" cellspacing="0" cellpadding="0" width="600"
+            class="email-container" style="margin: 0 auto;">
+            <tr>
+              <td class="desktop">
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <!-- Header -->
+                  <tr>
+                    <td width="600">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td width="600" bgcolor="#f4f4f4" style="   ">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <td width="24">
+                                <div style="width:24px">&nbsp;</div>
+                              </td>
+                              <td width="552" style="padding-right:24px">
+                                <div style="height:16px;line-height:16px;font-size:16px;width:552px">&nbsp;</div>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/Biy5LtFCZecjtNdOPs1xlnjluoroHt.png"
+                                        width="83" border="0" style="height:auto;margin:auto;display:block;">
+                                    </td>
+                                    <td style="padding-left:398px;">
+                                      <div style="height:3px;line-height:3px;font-size:3px;width:71px">
+                                        &nbsp;</div>
+                                      <a
+                                        href="https://www.getstages.io/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=header"><img
+                                          src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/getstages.io.png"
+                                          width="71" border="0" style="height:auto;margin:auto;display:block;"></a>
+                                      <div style="height:3px;line-height:3px;font-size:3px;width:71px">
+                                        &nbsp;</div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                        </tr>
+                      </table>
+                      <div style="height:16px;line-height:16px;font-size:16px;width:552px">&nbsp;</div>
+                    </td>
+                  </tr>
+                  <!-- Content -->
+                  <tr>
+                    <td>
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td width="600" bgcolor="#f4f4f4">
+                            <div style="height:20px;line-height:40px;font-size:40px;width:552px">&nbsp;</div>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24"></td>
+                                <td width="552" style="border-radius: 10px;" class="desktop">
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td style="text-align:left;">
+                                        <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#C8CCAE"
+                                          style="border-radius: 10px;">
+                                          <tr>
+                                            <td>
+                                              <div style="height:20px;width:552px">&nbsp;</div>
+                                              <img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/desck01.png" width="552">
+                                              <div style="height:12px;width:500px">&nbsp;</div>
+                                              <img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/btn-01.png" width="109" style="padding-left: 24px;">
+                                              <div style="height:20px;width:500px">&nbsp;</div>
+                                              <span
+                                                style="padding-left:24px;color: #000;line-height:33px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:29px;text-align:left;font-weight: 700;">
+                                                Novos estilos de texto e botões
+                                              </span>
+                                              <div style="height:10px;width:552px">&nbsp;</div>
+                                              <p
+                                                style="padding-left:24px; padding-right:16px ; margin:0; color: #000;line-height:22px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:16px;text-align:left;font-weight: 400;">
+                                                Deixe seus vídeos muito mais sua cara com os novos estilos de texto
+                                                e formatos dos botões. Você vai encontrar essas novas funções na
+                                                seção “Aparência” do menu. Depois de aplicar, não se esqueça de
+                                                clicar em publicar.
+                                              </p>
+                                              <div style="height:20px;width:552px">&nbsp;</div>
+                                              <img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/btn-02.png" width="504" style="padding-left: 24px;">
+                                              <div style="height:20px;width:552px">&nbsp;</div>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="24"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- Footer -->
+                  <tr>
+                    <td>
+                      <table width="600" bgcolor="#f4f4f4" style="color:#000;" cellspacing="0" cellpadding="0"
+                        border="0">
+                        <tr>
+                          <td>
+                            <div style="height:32px;line-height:32px;font-size:32px;width:552px">&nbsp;</div>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24">
+                                  <div style="width:24px">&nbsp;</div>
+                                </td>
+                                <td>
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td style="max-width:224px;text-align:left; ; white-space: nowrap;">
+                                        <div style="line-height:20px"><span
+                                            style="color: #000000;line-height:20px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:24px;text-align:left;font-weight: 700;">Torne-se
+                                            um Stager</span></div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="text-align:left; white-space: nowrap;">
+                                        <div style="line-height:normal"><span
+                                            style="color: #000000;font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Baixe
+                                            o app da Stages agora!</span></div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td style="padding-left:115px;">
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td width="213">
+                                        <table cellspacing="0" cellpadding="0" border="0">
+                                          <tr>
+                                            <td width="213">
+                                              <table cellspacing="0" cellpadding="0" border="0">
+                                                <tr>
+                                                  <td>
+                                                    <a href="https://apps.apple.com/app/stages-editor/id1638148728"><img
+                                                        src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/QGaFzuRsQ5dG14W8XteyVi8RUcBiDa.png"
+                                                        width="93.3603515625" border="0"
+                                                        style="max-width:93.3603515625px; height:auto;margin:auto;display:block;"></a>
+                                                    <div style="height:1px;line-height:1px;font-size:1px;width:93px">
+                                                      &nbsp;</div>
+                                                  </td>
+                                                  <td style="padding-left:16px;">
+                                                    <a
+                                                      href="https://play.google.com/store/apps/details?id=online.stages.editor"><img
+                                                        src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/e9436ff57b84e84dff7e8d6dc230b90f51ee151a.png"
+                                                        width="103" alt="" border="0"
+                                                        style="max-width:103.36000061035156px; height: auto; display: block;"></a>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <div style="height:2px;line-height:2px;font-size:2px;width:213px">&nbsp;</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div style="height:10px;width:552px">&nbsp;</div>
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <table width="600" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td width="24"></td>
+                                      <td>
+                                        <hr color="#CDCDCD">
+                                      </td>
+                                      <td width="24"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div style="height:10px;width:552px">&nbsp;</div>
+                                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td width="24"></td>
+                                      <td>
+                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                          <tr>
+                                            <td style="padding-right:10px;"><a
+                                                href="https://stages.online/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                                  style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Entrar</span></a>
+                                            </td>
+                                            <td style="padding-right:10px;"><a
+                                                href="https://www.getstages.io/learn/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                                  style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Aprenda</span></a>
+                                            </td>
+                                            <td><a
+                                                href="https://www.getstages.io/contact/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                                  style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Fale
+                                                  Conosco</span></a></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td align="right">
+                                        <table cellspacing="0" cellpadding="0" border="0">
+                                          <tr>
+                                            <td style="padding-right:30px;">
+                                              <a
+                                                href="https://www.instagram.com/getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/insta.png"
+                                                  width="20" height="20"></a>
+                                            </td>
+                                            <td style="padding-right:30px;">
+                                              <a
+                                                href="https://www.youtube.com/@getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/youtube.png"
+                                                  width="28" height="20"></a>
+                                            </td>
+                                            <td style="padding-right:30px;">
+                                              <a
+                                                href="https://twitter.com/getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/twitter.png"
+                                                  width="24" height="20"></a>
+                                            </td>
+                                            <td style="padding-right:30px;">
+                                              <a
+                                                href="https://www.linkedin.com/company/stagesonline/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/in.png"
+                                                  width="20" height="20"></a>
+                                            </td>
+                                            <td style="padding-right:30px;">
+                                              <a
+                                                href="https://www.tiktok.com/@getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/tiktok.png"
+                                                  width="20" height="20"></a>
+                                            </td>
+                                            <td>
+                                              <a
+                                                href="https://open.spotify.com/user/31ec7jify2q6h634efgx6wmt65hi?si=581b99bc218d46bf&nd=1/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                                  src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/spotify.png"
+                                                  width="20" height="20"></a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td width="24"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div style="height:10px;width:552px">&nbsp;</div>
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td width="24"></td>
+                                      <td>
+                                        <span
+                                          style="color: #000;line-height:13px; text-decoration: none; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">
+                                          Não está interessado em criar sua própria loja online de vídeos? Sinta-se à
+                                          vontade para
+                                          <a href="https://links.customer.io/unsubscribe"
+                                            style="color: #000; text-decoration: underline;">cancelar a
+                                            inscrição</a>.</span>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <div style="height:20px;width:552px">&nbsp;</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!--[if !mso]><!-->
+      <tr>
+        <td class="mobile" align="center" style="display: none; width: 0; height: 0;">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <!-- Header -->
+            <tr>
+              <td width="360" bgcolor="#f4f4f4">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <td width="24">
+                    <div style="width:24px">&nbsp;</div>
+                  </td>
+                  <td width="312" style="padding-right:24px">
+                    <div style="height:16px;line-height:16px;font-size:16px;width:312px">&nbsp;</div>
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td>
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td width="312">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/Biy5LtFCZecjtNdOPs1xlnjluoroHt.png"
+                                        width="83" border="0" style="height:auto;margin:auto;display:block;">
+                                    </td>
+                                    <td style="padding-left:158px;">
+                                      <div style="height:3px;line-height:3px;font-size:3px;width:71px">&nbsp;
+                                      </div>
+                                      <a
+                                        href="https://www.getstages.io/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=header"><img
+                                          src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/getstages.io.png"
+                                          width="71" border="0" style="height:auto;margin:auto;display:block;"></a>
+                                      <div style="height:3px;line-height:3px;font-size:3px;width:71px">&nbsp;
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <div style="height:16px;line-height:16px;font-size:16px;width:312px">&nbsp;</div>
+                  </td>
+                </table>
+              </td>
+            </tr>
+            <!-- Content -->
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td width="360" bgcolor="#f4f4f4">
+                      <div style="height:20px;line-height:10px;font-size:40px;width:312px">&nbsp;</div>
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td width="24">
+                            <div style="width:24px">&nbsp;</div>
+                          </td>
+                          <td width="300" bgcolor="#C8CCAE" style="border-radius: 10px">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="250" style="text-align:left;">
+                                  <div style="height:20px;width:200px">&nbsp;</div>
+                                  <a href="https://creatorsevents.stages.video"><img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/mb-desck01.png" width="320"></a>
+                                  <div style="height:12px;width:200px">&nbsp;</div>
+                                  <img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/btn-01.png" width="109" style="padding-left: 24px;">
+                                  <div style="height:20px;width:200px">&nbsp;</div>
+                                  <p
+                                    style="padding-left:24px; margin:0;color: #000;line-height:33px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:29px;text-align:left;font-weight: 700;">
+                                    Novos estilos de texto e botões
+                                  </p>
+                                  <div style="height:10px;width:200px">&nbsp;</div>
+                                  <p
+                                    style="padding-left:24px; padding-right: 24px; margin:0; color: #000;line-height:22px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:16px;text-align:left;font-weight: 400;">
+                                    Deixe seus vídeos muito mais sua cara com os novos estilos de texto e formatos
+                                    dos botões. Você vai encontrar essas novas funções na seção “Aparência” do menu.
+                                    Depois de aplicar, não se esqueça de clicar em publicar.
+                                  </p>
+                                  <div style="height:20px;width:200px">&nbsp;</div>
+                                  <img src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/2023-03-06-new-styles/mb-btn-02.png" width="270" style="padding-left: 24px;">
+                                  <div style="height:10px;width:200px">&nbsp;</div>
+                                </td>
+                              </tr>
+                            </table>
+                            <div style="height:20px;line-height:40px;font-size:40px;width:312px">&nbsp;</div>
+                          </td>
+                          <td width="24">
+                            <div style="width:24px">&nbsp;</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Footer -->
+            <tr>
+              <td>
+                <table bgcolor="#f4f4f4" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td width="360">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td width="24">
+                            <div style="width:24px">&nbsp;</div>
+                          </td>
+                          <td width="336">
+                            <div style="height:32px;line-height:32px;font-size:32px;width:224px">&nbsp;</div>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td>
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td style="max-width:336px;text-align:left; ; white-space: nowrap;">
+                                        <div style="line-height:20px"><span
+                                            style="color: #000000;line-height:20px;font-family:Arial, Helvetica, Arial, sans-serif; font-size:24px;text-align:left;font-weight: 700;">Torne-se
+                                            um Stager</span></div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="max-width:336px;text-align:left; white-space: nowrap;">
+                                  <div style="line-height:normal"><span
+                                      style="color: #000000;font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Baixe
+                                      o app da Stages agora!</span></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div style="height:12px;line-height:12px;font-size:12px;width:213px">&nbsp;
+                                  </div>
+                                  <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td>
+                                        <a href="https://apps.apple.com/app/stages-editor/id1638148728"><img
+                                            src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/QGaFzuRsQ5dG14W8XteyVi8RUcBiDa.png"
+                                            width="93.3603515625" border="0"
+                                            style="max-width:93.3603515625px; height:auto;margin:auto;display:block;"></a>
+                                        <div style="height:1px;line-height:1px;font-size:1px;width:93px">
+                                          &nbsp;</div>
+                                      </td>
+                                      <td style="padding-left:16px;">
+                                        <a href="https://play.google.com/store/apps/details?id=online.stages.editor"><img
+                                            src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/e9436ff57b84e84dff7e8d6dc230b90f51ee151a.png"
+                                            width="103" alt="" border="0"
+                                            style=" max-width:103.36000061035156px; height: auto; display: block;"></a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <div style="height:32px;line-height:32px;font-size:32px;width:224px">&nbsp;</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table width="360" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td>
+                            <table width="360" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24"></td>
+                                <td>
+                                  <hr color="#CDCDCD">
+                                </td>
+                                <td width="24"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div style="height:10px;width:360px">&nbsp;</div>
+                            <table width="360" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24"></td>
+                                <td>
+                                  <table width="312" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                      <td style="padding-right:10px;"><a
+                                          href="https://stages.online/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                            style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Entrar</span></a>
+                                      </td>
+                                      <td style="padding-right:10px;"><a
+                                          href="https://www.getstages.io/learn/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                            style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Aprenda</span></a>
+                                      </td>
+                                      <td><a
+                                          href="https://www.getstages.io/contact/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><span
+                                            style="color: #000;line-height:13px; text-decoration: underline; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">Fale
+                                            Conosco</span></a></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="24"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div style="height:20px;width:360px">&nbsp;</div>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24"></td>
+                                <td style="padding-right:20px;">
+                                  <a
+                                    href="https://www.instagram.com/getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/insta.png"
+                                      width="20" height="20"></a>
+                                </td>
+                                <td style="padding-right:20px;">
+                                  <a
+                                    href="https://www.youtube.com/@getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/youtube.png"
+                                      width="28" height="20"></a>
+                                </td>
+                                <td style="padding-right:20px;">
+                                  <a
+                                    href="https://twitter.com/getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/twitter.png"
+                                      width="24" height="20"></a>
+                                </td>
+                                <td style="padding-right:20px;">
+                                  <a
+                                    href="https://www.linkedin.com/company/stagesonline/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/in.png"
+                                      width="20" height="20"></a>
+                                </td>
+                                <td style="padding-right:20px;">
+                                  <a
+                                    href="https://www.tiktok.com/@getstages/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/tiktok.png"
+                                      width="24" height="20"></a>
+                                </td>
+                                <td>
+                                  <a
+                                    href="https://open.spotify.com/user/31ec7jify2q6h634efgx6wmt65hi?si=581b99bc218d46bf&nd=1/?utm_source=stages&utm_medium=product_marketing&utm_campaign=content_engagement&utm_content=intro_academy&utm_term=footer"><img
+                                      src="https://s3.sa-east-1.amazonaws.com/beta.bolha.com.br/client/stages/global/spotify.png"
+                                      width="24" height="20"></a>
+                                </td>
+                              </tr>
+                            </table>
+                            <div style="height:20px;width:360px">&nbsp;</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="360" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td width="24"></td>
+                                <td width="312">
+                                  <span
+                                    style="color: #000;line-height:13px; text-decoration: none; font-family:Arial, Helvetica, Arial, sans-serif; font-size:12px;text-align:left;">
+                                    Não está interessado em criar sua própria loja online de vídeos? Sinta-se à vontade
+                                    para
+                                    <a href="https://links.customer.io/unsubscribe"
+                                      style="color: #000; text-decoration: underline;">cancelar a sua
+                                      inscrição</a>.</span>
+                                </td>
+                                <td width="24"></td>
+                              </tr>
+                            </table>
+                            <div style="height:20px;width:300px">&nbsp;</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <div style="height:20px;width:300px">&nbsp;</div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- <![endif]-->
+    </table>
+  </div>
 </body>
+
 </html>
